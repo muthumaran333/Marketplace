@@ -1,7 +1,7 @@
 
 # 📈 Marketplace Project
 
-This project is a full-stack marketplace web application that allows users to view products, see product details, rate items, and perform CRUD operations. The application utilizes ReactJS for the frontend, Express.js for the backend, and MongoDB as the database.
+This project is a full-stack marketplace web application that allows users to view products, see product details, rate items, and perform CRUD operations. The application utilizes **ReactJS** for the frontend, **Express.js** for the backend, and **MongoDB** as the database.
 
 ---
 
@@ -11,9 +11,8 @@ This project is a full-stack marketplace web application that allows users to vi
 - [Setup Instructions](#-setup-instructions)
 - [Usage](#-usage)
 - [API Endpoints](#-api-endpoints)
-- [Project Structure](#-project-structure)
+- [Screenshots](#-project-structure)
 - [Contributing](#-contributing)
-- [License](#-license)
 
 ---
 
@@ -45,7 +44,7 @@ This project is a full-stack marketplace web application that allows users to vi
 - **Database:**
   - MongoDB
 
---- 
+---
 
 ## 🚀 Setup Instructions
 
@@ -56,13 +55,13 @@ This project is a full-stack marketplace web application that allows users to vi
    ```
 
 ### 📋 Prerequisites
-- **Node.js**: Make sure to have Node.js installed. You can download it from [Node.js official website](https://nodejs.org/).
-- **MongoDB**: You will need MongoDB installed and running. You can download it from [MongoDB official website](https://www.mongodb.com/try/download/community).
+- **Node.js:** Make sure to have Node.js installed. You can download it from [Node.js official website](https://nodejs.org/).
+- **MongoDB:** You will need MongoDB installed and running. You can download it from [MongoDB official website](https://www.mongodb.com/try/download/community).
 
 ### 🌐 Frontend Setup
 1. Navigate to the frontend directory:
    ```bash
-   cd MarketPlace/marketplace-frontend
+   cd Marketplace/marketplace-frontend
    ```
 2. Install dependencies:
    ```bash
@@ -76,7 +75,7 @@ This project is a full-stack marketplace web application that allows users to vi
 ### ⚙️ Backend Setup
 1. Navigate to the backend directory:
    ```bash
-   cd MarketPlace/marketplace-backend
+   cd Marketplace/marketplace-backend
    ```
 2. Install dependencies:
    ```bash
@@ -87,8 +86,46 @@ This project is a full-stack marketplace web application that allows users to vi
    npm start
    ```
 
---- 
+---
 
+## 🖼️ Screenshots
+
+### 🛍️ Marketplace Dashboard
+![Marketplace Dashboard](https://github.com/muthumaran333/Marketplace/blob/main/images/Capture1.PNG)
+
+*This is the main dashboard of the marketplace where users can browse and view all available products in a clean and user-friendly interface.*
+
+### 📄 Product Details Page
+![Product Details](https://github.com/muthumaran333/Marketplace/blob/main/images/Capture12.PNG)
+
+*This page displays detailed information about a selected product, including images, descriptions, and user ratings.*
+
+### 🛒 Add Product Page
+![Add Product](https://github.com/muthumaran333/Marketplace/blob/main/images/Capture56.PNG)
+
+*This is the page where sellers can add new products to the marketplace by filling in the necessary details and uploading images.*
+
+### 🛒 Available Products
+![Available Products](https://github.com/muthumaran333/Marketplace/blob/main/images/fullproducts.PNG)
+
+*This screenshot shows the available products in the marketplace. Users can easily browse through the product listings with essential details like name and price.*
+
+### 🔄 Update Products
+![Update Products](https://github.com/muthumaran333/Marketplace/blob/main/images/update%20product.PNG)
+
+*This page enables sellers to update their product details. Sellers can change images, descriptions, and pricing to keep listings accurate.*
+
+### 📱 Responsive Design
+![Responsive Design](https://github.com/muthumaran333/Marketplace/blob/main/images/1d.PNG)
+
+*This screenshot highlights the responsive design of the marketplace website. The layout adjusts seamlessly to different screen sizes for optimal user experience.*
+
+### 🗄️ Database Overview
+![Database Overview](https://github.com/muthumaran333/Marketplace/blob/main/images/Capture.PNG)
+
+*This image illustrates the database schema used in the marketplace application. It outlines the structure of product listings and user data for efficient management.*
+
+---
 
 ## Usage
 
@@ -110,10 +147,9 @@ This project is a full-stack marketplace web application that allows users to vi
 6. **Search for Products 🔍**  
    Use the search functionality to quickly find specific products based on keywords or categories.
 
---- 
+---
 
-
-## API Endpoints
+## 📡 API Endpoints
 
 | **Method** | **Endpoint**                      | **Description**                                           |
 |------------|-----------------------------------|-----------------------------------------------------------|
@@ -126,7 +162,6 @@ This project is a full-stack marketplace web application that allows users to vi
 
 ---
 
-
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps to contribute:
@@ -134,6 +169,3 @@ We welcome contributions! Please follow these steps to contribute:
 2. Create a new branch (`feature/new-feature`).
 3. Commit your changes.
 4. Open a pull request.
-
----
-
