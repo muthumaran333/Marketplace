@@ -37,10 +37,7 @@ This project is a full-stack marketplace web application that allows users to vi
 - **Frontend:** 
   - React
   - Tailwind CSS
-  - HTML
-  - CSS
-  - JavaScript
-
+    
 - **Backend:**
   - Node.js
   - Express
@@ -52,14 +49,20 @@ This project is a full-stack marketplace web application that allows users to vi
 
 ## 🚀 Setup Instructions
 
-### Prerequisites
-- ![Node.js Icon](https://img.icons8.com/color/24/000000/nodejs.png) Node.js
-- ![MongoDB Icon](https://img.icons8.com/color/24/000000/mongodb.png) MongoDB
+### 📦 Clone the Repository
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/muthumaran333/Marketplace.git
+   ```
 
-### Frontend Setup
+### 📋 Prerequisites
+- **Node.js**: Make sure to have Node.js installed. You can download it from [Node.js official website](https://nodejs.org/).
+- **MongoDB**: You will need MongoDB installed and running. You can download it from [MongoDB official website](https://www.mongodb.com/try/download/community).
+
+### 🌐 Frontend Setup
 1. Navigate to the frontend directory:
    ```bash
-   cd frontend
+   cd MarketPlace/marketplace-frontend
    ```
 2. Install dependencies:
    ```bash
@@ -70,10 +73,10 @@ This project is a full-stack marketplace web application that allows users to vi
    npm start
    ```
 
-### Backend Setup
+### ⚙️ Backend Setup
 1. Navigate to the backend directory:
    ```bash
-   cd backend
+   cd MarketPlace/marketplace-backend
    ```
 2. Install dependencies:
    ```bash
@@ -81,35 +84,48 @@ This project is a full-stack marketplace web application that allows users to vi
    ```
 3. Start the backend server:
    ```bash
-   npm run dev
+   npm start
    ```
 
+--- 
+
+
+## Usage
+
+1. **View All Products 🛍️**  
+   Browse through the marketplace to see a list of available products.
+
+2. **View Product Details 📄**  
+   Select a specific product to view detailed information, including descriptions and ratings.
+
+3. **Add a Product 🛒**  
+   Sellers can add new product listings to the marketplace by providing the necessary details.
+
+4. **Rate a Product ⭐**  
+   Users can submit ratings for products they have purchased or viewed to help other buyers make informed decisions.
+
+5. **Delete a Product 🗑️**  
+   Sellers have the ability to remove their product listings from the marketplace as needed.
+
+6. **Search for Products 🔍**  
+   Use the search functionality to quickly find specific products based on keywords or categories.
+
+--- 
+
+
+## API Endpoints
+
+| **Method** | **Endpoint**                      | **Description**                                           |
+|------------|-----------------------------------|-----------------------------------------------------------|
+| GET        | `/`                               | Fetch all products from the database.                    |
+| GET        | `/products/:id`                  | Retrieve a specific product by its ID.                   |
+| POST       | `/create`                         | Create a new product with the data provided in the request body. |
+| PUT        | `/update/:id`                    | Update an existing product identified by its ID.         |
+| DELETE     | `/delete/:id`                    | Delete a product identified by its ID.                   |
+| POST       | `/products/:id/rate`             | Submit a rating for a specific product identified by its ID. |
+
 ---
 
-## 🖥 Usage
-
-1. Register as a user and log in.
-2. Browse the marketplace for available products.
-3. Add items to your cart and proceed to checkout.
-4. Sellers can add, edit, or remove product listings.
-
----
-
-## 📡 API Endpoints
-
-| Method | Endpoint           | Description                 |
-|--------|---------------------|-----------------------------|
-| POST   | `/api/auth/signup` | Register a new user         |
-| POST   | `/api/auth/login`  | Log in a user               |
-| GET    | `/api/products`    | Retrieve all products       |
-| POST   | `/api/cart`        | Add product to cart         |
-
----
-
-## 📂 Project Structure
-
-
----
 
 ## 🤝 Contributing
 
@@ -121,12 +137,3 @@ We welcome contributions! Please follow these steps to contribute:
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-**Thank you for using Marketplace Project! Feel free to connect and contribute to make this project even better.** 🛒
-
---- 
